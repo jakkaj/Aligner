@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,10 @@
     <PackageReference Include="Accord.Imaging" Version="3.8.2-alpha" />
     <PackageReference Include="Accord.Vision" Version="3.8.2-alpha" />
     <PackageReference Include="CoreCompat.System.Drawing.v2" Version="5.2.0-preview1-r131" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Align.Services\Align.Services.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
